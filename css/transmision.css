@@ -107,11 +107,17 @@ header nav {
 
 /* Estilos del main */
 main {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
 }
 
-/* Estilos de los artículos */
-article, .main-article, .sidebar .article {
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.transmission-details {
     background: #fff;
     padding: 20px;
     margin-top: 20px;
@@ -119,32 +125,14 @@ article, .main-article, .sidebar .article {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-article h2, .main-article h2, .sidebar .article h3 {
+.transmission-details h3 {
     color: #333;
-    font-size: 1.6em;
-}
-
-article p, .main-article p, .sidebar .article p {
-    color: #555;
-    margin-top: 10px;
-}
-
-.main-article img {
-    width: 100%;
-    height: auto;
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
-.leer-mas {
-    color: #333;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    transition: color 0.3s;
-}
-
-.leer-mas:hover {
-    color: #ffd700;
+.transmission-details p {
+    color: #555;
 }
 
 /* Estilos del footer */

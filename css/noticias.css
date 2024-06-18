@@ -107,32 +107,35 @@ header nav {
 
 /* Estilos del main */
 main {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
 }
 
-/* Estilos de los artículos */
-article, .main-article, .sidebar .article {
+.articles-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles-grid .article {
     background: #fff;
     padding: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    box-sizing: border-box;
 }
 
-article h2, .main-article h2, .sidebar .article h3 {
+.articles-grid .article h3 {
     color: #333;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
-article p, .main-article p, .sidebar .article p {
+.articles-grid .article p {
     color: #555;
     margin-top: 10px;
-}
-
-.main-article img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
 }
 
 .leer-mas {
