@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #3a3a3a 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+    padding: 10px 0 0 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #e9e9e9 1px solid;
+}
+
+article h2 {
+    color: #333;
+    font-size: 1.4em;
+}
+
+article p {
+    color: #777;
+    margin-top: 10px;
+}
+
+.leer-mas {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
